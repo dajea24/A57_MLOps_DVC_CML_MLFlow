@@ -55,13 +55,13 @@ if __name__ == "__main__":
 
     #alpha = float(sys.argv[1]) if len(sys.argv) > 1 else 0.5
     #l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.5
-    alpha = 0.78#à changer
-    l1_ratio = 0.5#à changer
+    alpha = 0.6#à changer
+    l1_ratio = 0.3#à changer
 
     
     
     
-    mlflow.set_experiment(experiment_name='projet_final_A57')
+    mlflow.set_experiment(experiment_name='winequality_red')
     #mlflow.set_tracking_uri("http://localhost:5000")	
  
     with mlflow.start_run():
