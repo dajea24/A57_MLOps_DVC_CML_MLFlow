@@ -6,6 +6,7 @@
 import os
 import warnings
 import sys
+import pickle
  
 import pandas as pd
 import numpy as np
@@ -82,8 +83,11 @@ if __name__ == "__main__":
             outfile.write("MSE:  {0:2.1f} \n".format(rmse))
             outfile.write("MAE:  {0:2.1f} \n".format(mae))
             outfile.write("R2: {0:2.1f}\n".format(r2))
-     
-     
+            
+        # save the model to disk
+        filename = 'linear_model.pkl'
+        pickle.dump(lr, open(filename, 'wb'))
+
         mlflow.log_param("alpha", alpha)
         mlflow.log_param("l1_ratio", l1_ratio)
         mlflow.log_metric("rmse", rmse)
