@@ -10,6 +10,10 @@ jobs:
         env:
           GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
         run: |
+          # Pull data with DVC & repo pipeline
+          dvc pull
+          dvc repo
+          
           # Your ML workflow goes here
           pip install -r requirements.txt
           python train.py
