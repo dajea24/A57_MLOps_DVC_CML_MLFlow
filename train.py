@@ -36,7 +36,7 @@ if __name__ == "__main__":
  
     # Read the wine-quality csv file from the URL
     csv_url =\
-        'winequality-red.csv'
+        'winequality-red.csv.dvc'
     try:
         data = pd.read_csv(csv_url, sep=';')
     except Exception as e:
