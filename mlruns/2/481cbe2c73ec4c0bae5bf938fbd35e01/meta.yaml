@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/davidjeannette/GitHub/ProjectA57/mlruns/2/481cbe2c73ec4c0bae5bf938fbd35e01/artifacts
+end_time: 1616474335886
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 481cbe2c73ec4c0bae5bf938fbd35e01
+run_uuid: 481cbe2c73ec4c0bae5bf938fbd35e01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1616474335809
+status: 3
+tags: []
+user_id: davidjeannette

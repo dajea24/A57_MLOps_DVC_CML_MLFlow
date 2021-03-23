@@ -35,7 +35,7 @@ if __name__ == "__main__":
  
     # Read the wine-quality csv file from the URL
     csv_url =\
-        'winequality-red.csv'
+        'wine.csv'
     try:
         data = pd.read_csv(csv_url, sep=';')
     except Exception as e:
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     
     
     
-    mlflow.set_experiment(experiment_name='winequality_red')
+    mlflow.set_experiment(experiment_name='winequality')
     #mlflow.set_tracking_uri("http://localhost:5000")	
  
     with mlflow.start_run():
