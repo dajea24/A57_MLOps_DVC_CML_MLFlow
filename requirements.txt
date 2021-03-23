@@ -1,0 +1,9 @@
+pandas
+sklearn
+matplotlib
+seaborn
+numpy
+dvc
+mlflow
+ 
+ 
