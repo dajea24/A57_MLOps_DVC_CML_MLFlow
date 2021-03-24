@@ -20,7 +20,10 @@ jobs:
           
           # pull model on local workspace for dockerization
           dvc add linear_model.pkl
-          
+          git tag -a 'model1' -m "model 1"
+          git add linear_model.pkl.dvc .gitignore
+          git commit -m" model link"
+          git push
           
           # Write your CML report
           echo "## Metriques:" >> report.md
