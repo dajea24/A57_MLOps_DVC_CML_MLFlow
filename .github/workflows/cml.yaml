@@ -20,6 +20,13 @@ jobs:
           
           # pull model on local workspace for dockerization
           dvc add linear_model.pkl
+          
+          # suggested by Kamel and Idir, but you can see the error message
+          # in the Github action when you try to use the -git- command 
+          git config --global user.email "dajea24@gmail.com"
+          git config --global user.name "dajea24"
+          
+          
           git tag -a 'model1' -m "model 1"
           git add linear_model.pkl.dvc .gitignore
           git commit -m" model link"
