@@ -1,4 +1,0 @@
-outs:
-- md5: acdce418a59189fb1d01328d6588687e
-  size: 758
-  path: linear_model.pkl
