@@ -1,4 +1,4 @@
-name: model-lineaire
+name: model-linear
 on: [push]
 jobs:
   run:
