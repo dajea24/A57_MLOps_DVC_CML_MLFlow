@@ -62,8 +62,8 @@ if __name__ == "__main__":
     
     
     
-    mlflow.set_experiment(experiment_name='winequality_red')
-    #mlflow.set_tracking_uri("http://localhost:5000")	
+    mlflow.set_experiment(experiment_name='winequality_red1')
+    mlflow.set_tracking_uri("http://localhost:5000")	
  
     with mlflow.start_run():
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
