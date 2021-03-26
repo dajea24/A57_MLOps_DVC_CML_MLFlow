@@ -62,7 +62,7 @@ if __name__ == "__main__":
     
     
     
-    mlflow.set_experiment(experiment_name='winequality_red')
+    mlflow.set_experiment(experiment_name='experiment1')
     #mlflow.set_tracking_uri("http://localhost:5000")	
  
     with mlflow.start_run():
