@@ -27,10 +27,10 @@ jobs:
           git config --global user.name "dajea24"
           
           
-          #git tag -a 'model1' -m "model 1"
-          #git add linear_model.pkl.dvc .gitignore
-          #git commit -m" model link"
-          #git push
+          git tag -a 'model1' -m "model 1"
+          git add linear_model.pkl.dvc .gitignore
+          git commit -m" model link"
+          git push
           
           # Write your CML report
           echo "## Metriques:" >> report.md
