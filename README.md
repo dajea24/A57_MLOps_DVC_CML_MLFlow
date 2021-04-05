@@ -2,8 +2,7 @@
 Machine Learning Operations: CML-MLFlow-DVC integration for Linear Regression
 
 
-### Modifications apportées au fichier train.py
-
+### train.py file modifications
      
     *** # Write scores to a file
         with open("metrics.txt", 'w') as outfile:
